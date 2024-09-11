@@ -67,7 +67,7 @@ async function seedCustomers() {
     );
   `;
 
-  const insertedCustomers = await Promise.all(
+  const insertedCustomers =await Promise.all(
     customers.map(
       (customer) => client.sql`
         INSERT INTO customers (id, name, email, image_url)
