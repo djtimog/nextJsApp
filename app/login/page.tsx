@@ -12,6 +12,8 @@ export default function LoginPage() {
         </div>
         <LoginForm />
       </div>
+      <p className='text-sm'>EMAIL: user@nextmail.com <br /> PASSWORD: 123456</p>
+
     </main>
   );
 }
